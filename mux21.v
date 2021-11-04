@@ -7,7 +7,7 @@ module mux21(
     input D1,
     output Y
     );
-    
+
     assign Y = (!S & D0) | (S & D1);
-    
+
 endmodule
